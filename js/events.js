@@ -7,7 +7,7 @@ class EventManager {
     async initializeTimezones() {
         try {
             // Using GeoNames API to fetch timezones
-            const username = 'sammy';
+            const username = 'sambhavbohra';
             const response = await fetch(`http://api.geonames.org/timezoneJSON?formatted=true&lat=0&lng=0&username=${username}&style=full`);
             const data = await response.json();
             
